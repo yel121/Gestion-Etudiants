@@ -1,0 +1,16 @@
+1-cree base de donner smitha studentdb f postgres sta3mlo dbeaver 
+2- f scripts diro : apres la selectionner bdd studentdb : 
+create table students (
+id SERIAL  primary key,
+name text,last_name text,cin text, spec text,age int
+)
+3-kyn fichier env f dossier backend :
+    Ana hado info dyali:
+        DATABASE_URL=postgres://postgres:12345@localhost:5432/studentdb
+    atdiro change fhalat kan password li dkhlti mnin staliter postgres mnghir 12345
+    wla konto smito lyouser mn ghir postgres y3ni fin ghatbdlo :
+        DATABASE_URL=postgres://hna_user_li_mnghir_postgres:hna_password_dyalkom@localhost:5432/studentdb
+4- mn b3d mnin tfatho dossier atfatho dsssier backend o tdirlo : 
+node server.js => bach y dimarer serveur
+5 - o bach demariw frontend atdkhlo 3wtani dossier frontend :
+npm start => darori tkon m dimarer serveur dual backend bach ykhdmo bjoj fda9a 

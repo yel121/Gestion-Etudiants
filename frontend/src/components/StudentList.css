@@ -1,0 +1,64 @@
+/* StudentList.css */
+
+.student-list {
+    margin: 20px;
+  }
+  
+  .student-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .student-list-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .student-list-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-info {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .button-group {
+    margin-top: 1rem;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53935;
+  }
+  
